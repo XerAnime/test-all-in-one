@@ -1,0 +1,74 @@
+.main {
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh; /* Ensure the body takes up at least the height of the viewport */
+}
+
+.HeadContainer {
+	text-align: center;
+}
+
+.main .AppHeader {
+	color: var(--text);
+	font-size: 68px;
+	font-family: "Silkscreen";
+}
+
+.AppSubHead {
+	color: #f9f07ac7;
+	font-family: "Inter";
+	margin-top: 2px;
+}
+
+.redirectContainer {
+	margin-top: 6px;
+	text-align: center;
+	padding: 8px;
+	border: solid 1px white;
+	border-radius: 30px;
+}
+
+.redirectContainer a {
+	text-decoration: none;
+	color: var(--textl);
+	padding: 18px;
+	font-family: "Inter";
+}
+
+.redirectContainer a:hover {
+	color: #A3BE8C;
+}
+
+.redirectContainer p {
+	font-family: "Inter";
+	color: white;
+	font-size: 14px;
+}
+
+
+@media (max-width: 600px) {
+  .AppHeader {
+	font-size: 52px; 
+  }
+  
+  .AppSubHead {
+	font-size: 14px;
+  }
+  
+  .redirectContainer {
+	margin-top: 10px;
+  }
+
+  .redirectContainer a {
+	padding: 14px;
+  }
+
+  .redirectContainer p {
+	margin-top: 14px;
+	font-size: 13px;
+  }
+}

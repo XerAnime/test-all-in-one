@@ -1,0 +1,129 @@
+.header {
+	text-decoration: none;
+}
+
+.header p {
+	color: var(--hc);
+	font-family: "Silkscreen";
+	text-align: center;
+	font-size: 40px;
+	margin-top: 0px;
+	background-color: #2f333a;
+}
+
+.mainFrame {
+	display: flex;
+	justify-content: center;
+	max-width: 800px;
+	margin: -20px auto;
+}
+
+.video_player {
+	width: 900px;
+	border-radius: 10px;
+	border: none;
+}
+
+.infoFrame {
+	text-align: center;
+}
+
+.animeTitle {
+	color: var(--gc);
+	font-family: "Atkinson";
+	font-size: 34px;
+	text-align: center;
+	margin-top: -20px;
+}
+
+.infoText {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 14px;
+	margin-top: 10px;
+	font-family: "Atkinson";
+}
+
+.episodesText {
+	color: var(--pc);
+	padding: 8px;
+}
+
+.statusText {
+	color: var(--yc);
+	padding: 8px;
+}
+
+.typeText {
+	color: var(--hc);
+	padding: 8px;
+}
+
+.episodesButtons {
+	max-width: 800px;
+	max-height: 400px;
+	overflow-y: auto;
+	margin: -10px auto;
+}
+
+.epiCenter {
+	margin: 0 auto;
+}
+
+.episodesButtons::-webkit-scrollbar {
+	width: 0px;
+}
+
+.episodeButton {
+	font-size: 16px;
+	width: 80px;
+	padding: 5px;
+	font-family: "Atkinson";
+	background-color: var(--gc);
+	border-radius: 3px;
+	border: none;
+	margin: 3px;
+	cursor: pointer;
+
+}
+
+.episodeButton:hover {
+	background-color: #a3be8c;
+}
+
+@media screen and (max-width: 768px) {
+	.header p {
+		font-size: 30px;
+	}
+
+	.video_player {
+		max-width: 95%;
+		width: 800px;
+		border-radius: 5px;
+	}
+
+	.animeTitle {
+		font-size: 26px;
+	}
+
+	.infoText {
+		flex-direction: row;
+		align-items: center;
+		margin-top: 10px;
+	}
+	
+	.episodesButtons {
+		max-width: 100%;
+		margin-top: -10px;
+	}
+
+	.epiCenter {
+		margin: 0 auto;
+	}
+
+	.episodeButton {
+		width: 70px;
+		margin: 5px;
+	}
+}

@@ -1,0 +1,68 @@
+.movieTrending {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.movieTrendingIntro {
+	color: white;
+	font-size: 30px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	font-family: "Atkinson";
+}
+
+.trendingContainer {
+	display: flex;
+	flex-direction: row;
+	overflow-x: auto;
+	padding: 12px;
+}
+
+.trendingEntries {
+	padding: 10px;
+	text-align: center;
+	transition: transform 0.3s ease;
+	max-width: 500px;
+	height: 330px;
+}
+
+.trendingEntries:hover {
+	transform: scale(1.01);
+}
+
+.movieTitle {
+	color: var(--gc);
+	font-size: 20px;
+	margin-top: 5px;
+	overflow-y: auto;
+	font-family: "Atkinson";
+}
+
+.movieTitle::-webkit-scrollbar {
+	width: 8px;
+}
+
+.movieInfo {
+	color: var(--pc);
+	font-size: 18px;
+	margin-top: -5px;
+	font-family: "Atkinson";
+}
+
+.movieImage {
+	border-radius: 5px;
+	width: 150px;
+	height: 230px;
+}
+
+.trendingContainer::-webkit-scrollbar {
+	height: 8px;
+}
+.trendingContainer::-webkit-scrollbar-track {
+	background-color: var(--hc);
+}
+.trendingContainer::-webkit-scrollbar-thumb {
+	background-color: #e8ecf5;
+	border-radius: 5px;
+}
+

@@ -1,0 +1,95 @@
+.MangaDetailsContainer {
+	max-width: 1400px;
+	margin: 0px auto;
+}
+
+.MangaInfoEntries {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.MangaInfoTitle {
+	font-family: "Atkinson";
+	color: #8BE8E5;
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+.MangaInfoImage {
+	border-radius: 10px;
+	margin-top: -20px;
+	max-height: 600px;
+}
+
+.MangaInfoDesc {
+	font-family: "Atkinson";
+	color: #D5FFE4;
+}
+
+.MangaCharacterContainer {
+	display: flex;
+	flex-direction: row;
+	overflow-x: auto;
+}
+
+.MangaCharacterContainer::-webkit-scrollbar{
+	height: 8px;
+}
+
+.MangaCharacterContainer::-webkit-scrollbar-track {
+	background-color: var(--text);
+	border-radius: 4px;
+}
+
+.MangaCharacterContainer::-webkit-scrollbar-thumb {
+	background-color: white;
+	border-radius: 4px;
+}
+
+.MangaCharacterImage {
+	width: 160px;
+	height: 240px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.MangaCharacterName {
+	color: var(--textl);
+	font-family: "Atkinson";
+	font-size: 18px;
+}
+
+.MangaPages {
+	margin: 20px auto;
+	height: 500px;
+	overflow-y: auto;
+}
+
+.MangaChapterButton {
+	margin: 5px;
+	padding:8px;
+	width: 450px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+
+	font-family: "Atkinson";
+	font-size: 16px;
+	background-color: #89CFF3;
+}
+
+.MangaPages::-webkit-scrollbar {
+	width: 8px;
+}
+
+.MangaPages::-webkit-scrollbar-track {
+	background-color: var(--text);
+	border-radius: 4px;
+}
+
+.MangaPages::-webkit-scrollbar {
+	background-color: white;
+	border-radius: 4px;
+}

@@ -1,0 +1,67 @@
+.moviePlayer {
+	display: flex;
+	justify-content: center;
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.moviePlayer iframe {
+	width: 95%;
+	height: 650px;
+	border: 0px;
+	border-radius: 10px;
+}
+
+.movieInfoContainer {
+	text-align: center;
+	max-width: 900px;
+	margin: 0px auto;
+}
+
+.movieInfoTitle {
+	color: var(--text);
+	font-family: "Atkinson";
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.movieInfoOverview {
+	color: var(--textlll);
+	font-family: "Atkinson";
+	font-size: 20px;
+	margin-top: -24px;
+}
+
+.movieInfoReleaseDate {
+	color: var(--textll);
+	font-family: "Atkinson";
+	font-size: 18px;
+}
+
+.movieInfoRatings {
+	color: #F0F3FF;
+	font-family: "Atkinson";
+}
+
+@media only screen and (max-width: 767px) {
+	.moviePlayer {
+		width: 95%;
+	}
+	
+	.moviePlayer iframe {
+		height: 250px;
+		border: 0px;
+	}
+	
+	.movieInfoTitle {
+		font-size: 30px;
+	}
+
+	.movieInfoOverview {
+		font-size: 16px;
+	}
+
+	.movieInfoReleaseDate {
+		font-size: 14px;
+	}
+}
