@@ -25,7 +25,7 @@ function MangaReader() {
 		<div className="MangaReaderMain">
 			<div className='MangaHeader'>
 				<p className='heading'>
-					<a href='/'>Dramalama-Manga</a>
+					<a href='/'>XerStream-Manga</a>
 				</p>
 				<p className='headerPara'>Your one stop for all your manga needs</p>
 			</div>
