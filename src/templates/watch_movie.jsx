@@ -27,7 +27,7 @@ function MoviePlayer() {
 
 			<div>
 				<Link to="/" className='header'>
-					<p>Dramalama</p>
+					<p>XerStream-Movie</p>
 				</Link>
 			</div>
 
