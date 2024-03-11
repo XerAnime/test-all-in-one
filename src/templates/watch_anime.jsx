@@ -43,7 +43,7 @@ function WatchAnime() {
 		<div className='WA_main'>
 			<div>
 				<Link to="/" className='header'>
-					<p>Dramalama</p>
+					<p>XerStream-Anime</p>
 				</Link>
 			</div>
 
