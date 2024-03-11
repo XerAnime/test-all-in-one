@@ -96,7 +96,7 @@ function Movies() {
 		<div className="movieMain">
 
 			<ul className='navbar'>
-				<li><a href="/">Dramalama</a></li>
+				<li><a href="/">XerStream-Movie</a></li>
 				<input
 					placeholder='Enter movie title '
 					onKeyDown={(event) => handleKeyEvent(event)}
