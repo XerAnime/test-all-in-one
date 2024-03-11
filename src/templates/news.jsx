@@ -26,7 +26,7 @@ function News() {
 		<div className='main-n'>
 			<div className='headerContainer-n'>
 				<p className='header-n'>
-					Dramalama-News
+					XerStream-News
 				</p>
 				<p className='header-p'>Read anime related news for free.</p>
 			</div>
