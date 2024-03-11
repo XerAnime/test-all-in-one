@@ -6,7 +6,7 @@ function Home() {
 	<div className="main">
 		<div className='HeadContainer'>
 		  	<header className='AppHeader'>
-				Dramalama
+				XERSTREAM 
 		  	</header>
 		  	<p className='AppSubHead'>
 				Your gateway to kdrama, anime, manga and news.
