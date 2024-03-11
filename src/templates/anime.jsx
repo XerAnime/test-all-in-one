@@ -63,7 +63,7 @@ function Anime() {
 		<div className='animeMain'>
 			<div>
 				<ul className='navbar'>
-					<li><a href="/">XerStream</a></li>
+					<li><a href="/">XerStream-Movie</a></li>
 					<input
 						placeholder='Enter anime title '
 						onKeyDown={(event) => handleKeyEvent(event)}
